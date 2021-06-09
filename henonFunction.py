@@ -19,8 +19,8 @@ def henon(a=1.4,b=0.3,x=0.2,y=0.2):
 lx = []
 ly = []
 
-henon(0.8,0.3,0.2,0.2) #henon(a,b,x,y)
-#henon()
+#henon(0.8,0.3,0.2,0.2) #henon(a,b,x,y)
+henon()
 
 plt.scatter(lx,ly, marker=".", alpha=0.2)
 plt.show()
